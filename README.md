@@ -16,7 +16,7 @@ In this project, I hope to use machine learning to create a model that can predi
 * [pipenv](https://pipenv.readthedocs.io/en/latest/) for managing virtualenv and pip package dependencies.
 
 ## What To Do Every March
-* Download data files from [Kaggle](https://www.kaggle.com/c/mens-machine-learning-competition-2019), who will normally have a competition going (look for the competition for the current year). They will provide CSV files that show the results from games since 1985, information on conferences, tourney seed history, etc. It's important to download this data every year because Kaggle will add data from the most recently completed season and so you'll have a bit more training data. **Download the files, and replace the ones in [here](https://github.com/adeshpande3/March-Madness-ML/tree/master/Data/KaggleData) with the new versions**
+* Download data files from [Kaggle](https://www.kaggle.com/c/mens-machine-learning-competition-2019), who will normally have a competition going (look for the competition for the current year). They will provide CSV files that show the results from games since 1985, information on conferences, tourney seed history, etc. It's important to download this data every year because Kaggle will add data from the most recently completed season and so you'll have a bit more training data. **Download the files, and replace the ones in [here](https://github.com/nickmalbsn/March-Madness-ML/tree/master/Data/KaggleData) with the new versions**
 * We also want to get the advanced rating statistics from Basketball Reference. Basically, go to https://www.sports-reference.com/cbb/seasons/2019-ratings.html, replace 2019 with whatever year you're looking at, choose to get the table as a CSV (available in one of the dropdowns), disregard the first line, start with the line that begins with "Rk,School..", copy that over to a new text doc in Sublime (or any text editor), save it as a CSV, and then upload it to [this folder](https://github.com/adeshpande3/March-Madness-ML/tree/master/Data/RatingStats).
 * We also want to get the regular season statistics from Basketball Reference. Basically, go to https://www.sports-reference.com/cbb/seasons/2019-school-stats.html, replace 2019 with whatever year you're looking at, choose to get the table as a CSV (available in one of the dropdowns), disregard the first line, start with the line that begins with "Rk,School..", copy that over to a new text doc in Sublime (or any text editor), save it as a CSV, and then upload it to [this folder](https://github.com/adeshpande3/March-Madness-ML/tree/master/Data/RegSeasonStats).
     * For both of the above steps, make sure that the column names are the same from year to year! In 2019, Basketball Reference made some small changes to the column names (X3P to 3PA for example)
@@ -32,7 +32,7 @@ In this project, I hope to use machine learning to create a model that can predi
 ## Getting Started
 1. Download and unzip [this entire repository from GitHub](https://github.com/adeshpande3/March-Madness-2018), either interactively, or by entering the following in your Terminal.
     ```bash
-    git clone https://github.com/adeshpande3/March-Madness-ML.git
+    git clone https://github.com/nickmalbsn/March-Madness-ML.git
     ```
 2. Navigate into the top directory of the repo on your machine
     ```bash
