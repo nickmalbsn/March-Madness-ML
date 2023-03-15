@@ -15,11 +15,11 @@ import collections
 import os.path
 from sklearn.model_selection import train_test_split
 from sklearn import svm
-
+from sklearn.svm import SVC
 from sklearn import linear_model
 from sklearn import tree
-
-
+from sklearn.model_selection import cross_val_score
+from keras.utils import np_utils
 from sklearn.neighbors import KNeighborsClassifier
 import matplotlib
 matplotlib.use('TkAgg')
@@ -34,7 +34,7 @@ import csv
 from sklearn.ensemble import VotingClassifier
 from sklearn.metrics import classification_report
 from sklearn.calibration import CalibratedClassifierCV
-
+import urllib
 from sklearn.svm import LinearSVC
 import xgboost as xgb
 from sklearn.model_selection import GridSearchCV
