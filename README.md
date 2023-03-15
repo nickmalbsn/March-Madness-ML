@@ -41,15 +41,18 @@ In this project, I hope to use machine learning to create a model that can predi
 3. Create a virtualenv and install the package dependencies. If you don't have `pipenv`, you can follow instructions [here](https://pipenv.pypa.io/en/latest/install/) for how to install.
     ```bash
     pip install pipenv
+    
     ```
 4. First create your xTrain and yTrain matrices by running 
     ```bash
     python DataPreprocessing.py
+    
     ```
    This may take a while (Still trying to figure out ways to make this faster).
 5. Then run your machine learning model  
     ```bash
     python MarchMadness.py
+    
     ```
 ## Troubleshooting
 * If you're using Python 2, then everything should be the same except you don't have to create a pipenv, but you would have to install the following libraries on your own: numpy, pandas, sklearn. Other optional libraries are keras, tensorflow, and xgboost. 
