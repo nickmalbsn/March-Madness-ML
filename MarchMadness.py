@@ -21,7 +21,7 @@ from sklearn import tree
 
 
 from sklearn.neighbors import KNeighborsClassifier
-
+import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
