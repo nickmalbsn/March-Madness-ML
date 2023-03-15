@@ -30,6 +30,9 @@ In this project, I hope to use machine learning to create a model that can predi
 * Decide what type of additional data preprocessing might be needed
 
 ## Getting Started
+   ```bash
+   Remove-Item March-Madness-ML -Recurse -Force
+    ```
 1. Download and unzip [this entire repository from GitHub](https://github.com/adeshpande3/March-Madness-2018), either interactively, or by entering the following in your Terminal.
     ```bash
     git clone https://github.com/nickmalbsn/March-Madness-ML.git
