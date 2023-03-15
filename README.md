@@ -40,7 +40,7 @@ In this project, I hope to use machine learning to create a model that can predi
     ```
 3. Create a virtualenv and install the package dependencies. If you don't have `pipenv`, you can follow instructions [here](https://pipenv.pypa.io/en/latest/install/) for how to install.
     ```bash
-    pipenv install
+    pip install pipenv
     ```
 4. First create your xTrain and yTrain matrices by running 
     ```bash
